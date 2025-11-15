@@ -35,6 +35,15 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
